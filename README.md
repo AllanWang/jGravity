@@ -3,7 +3,7 @@ jGravity
 
 jGravity adds gravity to either all or specified elements within a page. Using the plugin is as easy as $('body').jGravity(); which will use default settings to apply the gravity effect, which I think you will find quite similar to how Google presented 'Google Gravity' in an earlier Google easter egg.
 
-I created this plugin because it simply didn't exist. I wanted a gravity type of effect for a current project and searching was very frustrating  with little results. Although, I did find several leads to various other projects which contributed heavily to this plugin (mentioned below in credits).
+This is but a fork of the [original jGravity](https://github.com/tinybigideas/jGravity) with some minor changes I've added. Full credits go to tinybigideas (and the other mentions below).
 
 HOW TO USE
 ========
@@ -58,6 +58,8 @@ depth: Enter a numerical value that is greater than 1 to decide depth of gravity
 
 drag: Decide if users can drag elements which have been effected by jGravity. Only 'true' and 'false' are acceptable.
 
+callback: A function that will be called once jGravity starts runninng.
+
 Example:
 
     target: 'everything'
@@ -77,6 +79,8 @@ CREDITS
 ========
 
 jGravity would not be possible without the work of:
+
+tinybigideas :: https://github.com/tinybigideas/jGravity
 
 Mr. Doobs :: http://mrdoob.com/92/Google_Gravity
 
