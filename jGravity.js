@@ -1,11 +1,12 @@
 /*
 
  * @project:	jGravity
- * @version:	0.8 - 29/04/2012
+ * @version:	0.9 - 29/10/2016
  * @author:		Craig Thomas - www.tinybigideas.com
+ * @updater:    Allan Wang - www.allanwang.ca
  * @project:	http://tinybigideas.com/plugins/jquery-gravity/
  * @license:	jGravity is licensed under a Open Source Initiative OSI MIT License: http://opensource.org/licenses/mit-license.php
- * @changlog:	http://tinybigideas.com/plugins/jquery-gravity/
+ * @changelog:	http://tinybigideas.com/plugins/jquery-gravity/
 
  */
 
