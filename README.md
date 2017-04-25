@@ -1,9 +1,11 @@
+This is a continuation of the [original jGravity](https://github.com/tinybigideas/jGravity) with some minor changes I've added. Full credits go to tinybigideas (and the other mentions below).
+
+Changes include better support for elements that don't fill the screen (offsets are calculated) so that dragging works as expected.
+
 jGravity
 ========
 
 jGravity adds gravity to either all or specified elements within a page. Using the plugin is as easy as $('body').jGravity(); which will use default settings to apply the gravity effect, which I think you will find quite similar to how Google presented 'Google Gravity' in an earlier Google easter egg.
-
-This is but a fork of the [original jGravity](https://github.com/tinybigideas/jGravity) with some minor changes I've added. Full credits go to tinybigideas (and the other mentions below).
 
 HOW TO USE
 ========
@@ -12,36 +14,34 @@ As mentioned, all you need to do is use $('body').jGravity(); to produce the mai
 
 Simple Example:
 
-	<script>
-
-		$(document).ready(function() {
-		
-		     $('body').jGravity();
-		});
-	
-	</script>
+```xml
+<script>
+	$(document).ready(function() {
+		 $('body').jGravity();
+	});
+</script>
+```
 
 Advanced Example:
 
-	<script>
-	
-	    $(document).ready(function() {
-	
-	         $('div.jGravity').live('click', function() {
-	              $('body').jGravity({
-	                   target: 'everything',
-	                   ignoreClass: 'ignoreMe',
-	                   weight: 25,
-	                   depth: 5,
-	                   drag: true,
-					   callback: function () {
-							console.log('Running...');
-					   }
-	          	});
-	     	});
+```xml
+<script>
+	$(document).ready(function() {
+		 $('div.jGravity').live('click', function() {
+			  $('body').jGravity({
+				   target: 'everything',
+				   ignoreClass: 'ignoreMe',
+				   weight: 25,
+				   depth: 5,
+				   drag: true,
+				   callback: function () {
+						console.log('Running...');
+				   }
+			});
 		});
-
-	</script>
+	});
+</script>
+```
 
 Also, don't be afraid to use multiple jGravity() class on multiple targets to effect them differently.
 
@@ -62,11 +62,13 @@ callback: A function that will be called once jGravity starts runninng.
 
 Example:
 
-    target: 'everything'
-    ignoreClass: 'ignoreMe'
-    weight: 25
-    depth: 5
-    drag: true
+```
+target: 'everything'
+ignoreClass: 'ignoreMe'
+weight: 25
+depth: 5
+drag: true
+```
 
 Feel free to play with the above settings until you receive the desired effect.
 
