@@ -1,4 +1,4 @@
-This is a continuation of the [original jGravity](https://github.com/tinybigideas/jGravity) with some minor changes I've added. Full credits go to tinybigideas (and the other mentions below).
+This is a continuation of the [original jGravity](https://github.com/tinybigideas/jGravity) by tinybigideas with some minor changes I've added. Full credits go to tinybigideas (and the other mentions below).
 
 Changes include better support for elements that don't fill the screen (offsets are calculated) so that dragging works as expected.
 
